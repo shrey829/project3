@@ -28,9 +28,9 @@ match num:
             for i in range(num2 + 1):
                 if(i<=num1):
                     pass
-                    if i % 2 == 0:
+                if i % 2 == 0:
                       print(f"Number {i} is even")
-                    else:
+                else:
                       print(f"Number {i} is odd")
 
                 sum += i
